@@ -55,13 +55,15 @@ $ exa -T /Web Publishing/publishing-engine/wip/Frameworks/Support.framework/Vers
 │  ├── VeriSign Class 3 Public Primary Certification Authority - G5.pem
 │  ├── VeriSign Class 4 Public Primary Certification Authority - G3.pem
 │  └── VeriSign Universal Root Certification Authority.pem
-└── server.pem```
+└── server.pem
+```
 
 ```
 $ exa -T "/Library/FileMaker Server/Web Publishing/publishing-engine/cwpc/Frameworks/Support.framework/Versions/A/Resources/OpenSSL/"
 ```
 
-```.
+```
+.
 ├── keypairstore.xml
 ├── openssl.config
 ├── root.pem
