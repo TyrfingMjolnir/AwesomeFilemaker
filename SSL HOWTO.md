@@ -1,7 +1,9 @@
 Put CA inside FileMaker Pro to avoid warnings: `cp mydommain.CA.pem "/Applications/FileMaker Pro 16 Advanced/FileMaker Pro Advanced.app/Contents/Frameworks/Support.framework/Versions/A/Resources/OpenSSL/RootCA/"`
 
 Listing of *.pem in FileMaker 16 Server
-```$ exa -T /Web Publishing/publishing-engine/wip/Frameworks/Support.framework/Versions/A/Resources/OpenSSL/```
+```
+$ exa -T /Web Publishing/publishing-engine/wip/Frameworks/Support.framework/Versions/A/Resources/OpenSSL/
+```
 ```.
 ├── keypairstore.xml
 ├── openssl.config
@@ -54,7 +56,9 @@ Listing of *.pem in FileMaker 16 Server
 │  └── VeriSign Universal Root Certification Authority.pem
 └── server.pem```
 
-```$ exa -T "/Library/FileMaker Server/Web Publishing/publishing-engine/cwpc/Frameworks/Support.framework/Versions/A/Resources/OpenSSL/"```
+```
+$ exa -T "/Library/FileMaker Server/Web Publishing/publishing-engine/cwpc/Frameworks/Support.framework/Versions/A/Resources/OpenSSL/"
+```
 
 ```.
 ├── keypairstore.xml
