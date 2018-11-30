@@ -14,7 +14,7 @@ may also work with other versions.
 1. Copy the public files to your computer
 1. Unmount the removable
 1. Put the removable in a safe
-1. reconnect your computer to the internet
+1. Reconnect your computer to the internet
 
 You only want to do this again if you would like to add hosts to this combination of CA and domain
 
