@@ -1,3 +1,5 @@
+This blog is a very valuable lesson if you appreciate security; while a publicly signed SSL certificate can be good circumstancial reference to who is serving the data, not unlike car number plates. Self signed certificates are a hope of providing actual security for your data transfer: https://blog.beezwax.net/2017/12/03/creating-your-own-ssl-certificates-for-filemaker/ That said I was never able to follow that guide using the GUI to create a self signed certificate. Also that blog does not tell you some of the most important steps of creating a self signed certificate such as signing to an SD card while the computer is offline, and only copying the public files to your computer, disconnecting the SD card and storing that SD card in a physical fire proof safe.
+
 Put CA inside FileMaker Pro to avoid warnings: `cp mydommain.CA.pem "/Applications/FileMaker Pro 16 Advanced/FileMaker Pro Advanced.app/Contents/Frameworks/Support.framework/Versions/A/Resources/OpenSSL/RootCA/"`
 
 Listing of *.pem in FileMaker 16 Server
