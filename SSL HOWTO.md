@@ -1,6 +1,17 @@
 # HOW-TO self sign SSL Certificate for FileMaker 16 Server
 may also work with other versions.
 
+## Practical information
+
+* Make sure you have a new dedicated removable device such as SD card or USB MASS Storage device handy
+* Make sure you grab a HOW-TO( I use FireFox and push CMD + S )
+* Disconnect your computer from the internet
+* Sign the certificates: CA, domain, host[s] on the removable
+* Copy the public files to your computer
+* Unmount the removable
+* Put the removable in a safe
+* reconnect your computer to the internet
+
 ### Prior art
 This blog is a very valuable lesson if you appreciate security; while a publicly signed SSL certificate can be good circumstancial reference to who is serving the data, not unlike car number plates. Self signed certificates are a hope of providing actual security for your data transfer: https://blog.beezwax.net/2017/12/03/creating-your-own-ssl-certificates-for-filemaker/ That said I was never able to follow that guide using the GUI to create a self signed certificate; hence I used openssl to sign the certificates myself. Also that blog does not tell you some of the most important steps of creating a self signed certificate such as signing to an SD card while the computer is offline, and only copying the public files to your computer, disconnecting the SD card and storing that SD card in a physical fire proof safe.
 
